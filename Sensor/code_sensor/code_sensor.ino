@@ -10,22 +10,15 @@ void setup() {
 void loop() {
   if (Photo_Trans == true ) {
     if (notes == false) {
-      Serial.println("Jouer");
-      Serial.println(notes);
+      // jouer notes
       notes = true ;
-    }
-    else {
-      if (notes == true) {
-        Serial.println("Ne pas jouer");
-         Serial.println(notes);
-        notes = true;
-      }
+      
     }
   }
-  else if (Photo_Trans == false) {
+  else {
+    if (notes == true ){
     //note off ;
     notes = false;
   }
-  delay(1000);
-
+ }
 }
