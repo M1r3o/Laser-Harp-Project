@@ -1,15 +1,3 @@
-// Petit cours Arduino pour Marco...
-// ---------------------------------
-// En dehors de tous les coide, on peut faire les déclarations qui servent a toutes les fonctions
-// et importer les eventuelles librairies necessaires.
-//
-// Les lignes de commentaires commencent par "//" et ne sont pas prises en compte
-// par le programme ni par le compilateur. Ils ne servent qu'aux developpeurs.
-//
-// Tous programmes Arduino doit au moins avoir un void setup et un void loop.
-// Attention : il faut toujours respecter la casse !
-//-------------------------------------------------------------------------------------------------------
-
 // Librairie pour le DAC
 #include <MCP4725.h>
 //Librairie Pour le protocole MIDI (Musical Instrument Digital Interface)
