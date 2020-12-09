@@ -1,0 +1,27 @@
+for (int cordeCourante=0; cordeCourante < (nbCordes-1); cordeCourante++) {
+      // Eteindre le laser
+      digitalWrite(laserPin, LOW);
+      laserStatut = false;
+      
+      // Placer le galvo
+      dac.setValue((2047-(ecart*nbCordes/2))+(cordeCourante*ecart));
+
+     // Pause de stabilisation+lecture de la note
+     unsigned long temps0 = millis();
+      while (millis() - temps0 < Delay_Motor) {
+        //digitalWrite(PinLaser , HIGH);
+        if (analogRead(Pin_Sensor_Note) > LDR_Sensor_Note) {
+          noteOn(0, 48 + cordeCourante, 64);
+          MidiUSB.flush();
+          delay(1) ;
+          noteOff (0, 48 + cordeCourante, 64 ) ;
+          MidiUSB.flush();
+
+
+        } else {
+          noteOff(0, 48 + cordeCourante, 64); // Channel 0, middle C, normal velocity
+          MidiUSB.flush();
+
+        }
+
+      }
