@@ -1,6 +1,6 @@
 # ///// Laser-Harp-Project\\\\\
 
-# This project has Maked in collaboration with Frederic_Wauters 
+# This project has Maked in collaboration with Frederic_Wauters, he help me to understand the principle work of the laser harp and in the arduino code 
 
 # This repository is a Save of all of my research , test , version , of Laser Harp 
 
