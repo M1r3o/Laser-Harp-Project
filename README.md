@@ -26,4 +26,7 @@
 # some pin connector mal/femal
 # Solder BreadBoard or (prototype breadboard)
 
+# for the sensor , I don't pulse my laser module , and in the schematics , you can delete filter part , ans save just comparator part
+# 
+
 
