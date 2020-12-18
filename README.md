@@ -9,21 +9,21 @@
 # This repository is , may be , not complet , but the principle ,schematics,code,plans is here to help you in this project 
 # I have save the bases about Laser Harp , to you built your version of this mythic instrument 
 
-#to make this version of laser harp you need some more component 
+# to make this version of laser harp you need some more component 
 
-#Powerfull Laser Module (100mW minimum)
-#Galvo Scanner (10KPPS minimum) 
-#TL082 OP AMP
-#LM393 OP AMP (Comparator)  
-#MCP 4725 (of adafruit shield)
-#TAOS TL257 (or equivalent)
-#ATX power
-#Arduino UNO
-#Potentiometer 10K
-#Precise Protentiometer 10K and 100k
-#some resistors (see in differrent schematics)
-#some cable
-#some pin connector mal/femal
-#Solder BreadBoard or (prototype breadboard)
+# Powerfull Laser Module (100mW minimum)
+# Galvo Scanner (10KPPS minimum) 
+# TL082 OP AMP
+# LM393 OP AMP (Comparator)  
+# MCP 4725 (of adafruit shield)
+# TAOS TL257 (or equivalent)
+# ATX power
+# Arduino UNO/Mega 2560
+# Potentiometer 10K
+# Precise Protentiometer 10K and 100k
+# some resistors (see in differrent schematics)
+# some cable
+# some pin connector mal/femal
+# Solder BreadBoard or (prototype breadboard)
 
 
