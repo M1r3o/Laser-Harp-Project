@@ -1,3 +1,5 @@
+//codée par m1r3o & Frederic Wauters
+
 // Librairie pour le DAC
 #include <MCP4725.h>
 //Librairie Pour le protocole MIDI (Musical Instrument Digital Interface)
