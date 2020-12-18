@@ -14,7 +14,7 @@
 # Powerfull Laser Module (100mW minimum)
 # Galvo Scanner (10KPPS minimum) 
 # TL082 OP AMP
-# LM393 OP AMP (Comparator)  
+# LM393 or LM339 OP AMP (Comparator)  
 # MCP 4725 (of adafruit shield)
 # TAOS TL257 (or equivalent)
 # ATX power
