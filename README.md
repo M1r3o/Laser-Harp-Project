@@ -10,22 +10,29 @@
 # I have save the bases about Laser Harp , to you built your version of this mythic instrument 
 
 # to make this version of laser harp you need some more component 
-
+#-----------Laser---------------------------
 # Powerfull Laser Module (100mW minimum)
+#-----------To control Galva Scanner--------
 # Galvo Scanner (10KPPS minimum) 
 # TL082 OP AMP
-# LM393 or LM339 OP AMP (Comparator)  
-# MCP 4725 (of adafruit shield)
+# MCP 4725 (of adafruit shield) 
+# some resistor (see in the schematics)
+# Precise Protentiometer 10K and 100k
+#-----------Sensor V1-----------------------
+# LM393 or LM339
 # TAOS TL257 (or equivalent)
+# Rsistor 1K (see in schematics , this is an example , you can to employ diferent reistor , but you need to calcul consommation (mA) of your comparator system and arduino (Max 250mA for arduino)  
+# Potentiometer 10K
+#-----------Another------------------------
 # ATX power
 # Arduino UNO/Mega 2560
-# Potentiometer 10K
-# Precise Protentiometer 10K and 100k
 # some resistors (see in differrent schematics)
 # some cable
 # some pin connector mal/femal
 # Solder BreadBoard or (prototype breadboard)
-
+# USB MIDI Converter
+# USB B-Type Cable
+#--------------------------------------------
 # for the sensor , I don't pulse my laser module , and in the schematics , you can delete filter part , ans save just comparator part
 # 
 
