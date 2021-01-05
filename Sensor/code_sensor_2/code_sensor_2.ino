@@ -11,7 +11,7 @@ void loop() {
     // jouer note;
     notes_statue = true;
   }
-  else if ( pin_note == false) {
+  else if ( pin_note == false && notes_statue == false) {
     //arreter note
     notes_statue = false;
   }
