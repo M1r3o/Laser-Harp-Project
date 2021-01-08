@@ -17,7 +17,7 @@
 # TL082 OP AMP
 # MCP 4725 (of adafruit shield) 
 # some resistor (see in the schematics)
-# Precise Protentiometer 10K and 100k
+# Precise Protentiometer 10K and 47k
 -----------Sensor V1-----------------------
 # LM393 or LM339
 # TAOS TL257 (or equivalent)
