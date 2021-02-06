@@ -35,6 +35,6 @@
 --------------------------------------------
 # for the sensor , I don't pulse my laser module , and in the schematics , you can delete filter part , ans save just comparator part
 --------------------------------------------
-# If you need help to search your different pieces in different internet site for laser Harp , you can to download this file -> "composant-harpe-laser.pdf"with all link of component
+# If you need help to search your different pieces in different internet site for laser Harp , you can to download this file -> "composant-harpe-laser.pdf"with all link of component you need for laser harp
 
 
