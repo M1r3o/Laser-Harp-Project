@@ -21,7 +21,7 @@
 -----------Sensor V1-----------------------
 # LM393 or LM339
 # TAOS TL257 (or equivalent)
-# Rsistor 1K (see in schematics , this is an example , you can to employ diferent reistor , but you need to calcul consommation (mA) of your comparator system and arduino (Max 250mA for arduino)  
+# Resistor 1K (see in schematics , this is an example , you can to employ diferent reistor , but you need to calcul consommation (mA) of your comparator system and arduino (Max 250mA for arduino)  
 # Potentiometer 10K
 -----------Another------------------------
 # ATX power
@@ -34,6 +34,7 @@
 # USB B-Type Cable
 --------------------------------------------
 # for the sensor , I don't pulse my laser module , and in the schematics , you can delete filter part , ans save just comparator part
-# 
+--------------------------------------------
+# If you need help to search your different pieces in different internet site for laser Harp , you can to download this file -> "composant-harpe-laser.pdf"with all link of component
 
 
