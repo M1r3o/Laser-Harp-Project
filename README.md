@@ -9,6 +9,9 @@
 # This repository is , may be , not complet , but the principle ,schematics,code,plans is here to help you in this project 
 # I have save the bases about Laser Harp , to you built your version of this mythic instrument 
 
+# Demo of Laser Harp
+# https://youtu.be/7bUMFFDsR9I
+
 # to make this version of laser harp you need some more component 
 -----------Laser---------------------------
 # Powerfull Laser Module (100mW minimum)
