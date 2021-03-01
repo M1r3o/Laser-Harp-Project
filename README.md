@@ -14,7 +14,7 @@ This project has Maked in collaboration with Frederic_Wauters, he help me to und
 
 ### to make this version of laser harp you need some more component  
 ## -----------Laser---------------------------    
-#### Powerfull Laser Module (100mW minimum)  
+* ### Powerfull Laser Module (100mW minimum)  
 ## -----------To control Galva Scanner--------  
  ### Galvo Scanner (10KPPS minimum)   
  ### TL082 OP AMP  
