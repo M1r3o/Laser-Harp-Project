@@ -16,28 +16,28 @@ This project has Maked in collaboration with Frederic_Wauters, he help me to und
 ## -----------Laser---------------------------    
 * ### Powerfull Laser Module (100mW minimum)  
 ## -----------To control Galva Scanner--------  
- ### Galvo Scanner (10KPPS minimum)   
- ### TL082 OP AMP  
- ### MCP 4725 (of adafruit shield)   
- ### some resistor (see in the schematics)  
- ### Precise Protentiometer 10K and 47k  
+* ### Galvo Scanner (10KPPS minimum)   
+* ### TL082 OP AMP  
+* ### MCP 4725 (of adafruit shield)   
+* ### some resistor (see in the schematics)  
+* ### Precise Protentiometer 10K and 47k  
 ## -----------Sensor V1-----------------------
- ### LM393 or LM339  
- ### TAOS TL257 (or equivalent)  
- ### Resistor 1K (see in schematics , this is an example , you can to employ diferent reistor , but you need to calcul consommation (mA) of your comparator system and arduino (Max 250mA for arduino)  
- ### Potentiometer 10K  
+* ### LM393 or LM339  
+* ### TAOS TL257 (or equivalent)  
+* ### Resistor 1K (see in schematics , this is an example , you can to employ diferent reistor , but you need to calcul consommation (mA) of your comparator system and arduino (Max 250mA for arduino)  
+* ### Potentiometer 10K  
 ## -----------Another------------------------  
- ### ATX power  
- ### Arduino UNO/Mega 2560  
- ### some resistors (see in differrent schematics)  
- ### some cable  
- ### some pin connector mal/femal  
- ### Solder BreadBoard or (prototype breadboard)  
- ### USB MIDI Converter  
- ### USB B-Type Cable  
+* ### ATX power  
+* ### Arduino UNO/Mega 2560  
+* ### some resistors (see in differrent schematics)  
+* ### some cable  
+* ### some pin connector mal/femal  
+* ### Solder BreadBoard or (prototype breadboard)  
+* ### USB MIDI Converter  
+* ### USB B-Type Cable  
 ## --------------------------------------------  
- ### for the sensor , I don't pulse my laser module , and in the schematics , you can delete filter part , ans save just comparator part  
+* ### for the sensor , I don't pulse my laser module , and in the schematics , you can delete filter part , ans save just comparator part  
 ## --------------------------------------------  
- ### If you need help to search your different pieces in different internet site for laser Harp , you can to download this file -> "composant-harpe-laser.pdf"with all link of component you need for laser harp  
+* ### If you need help to search your different pieces in different internet site for laser Harp , you can to download this file -> "composant-harpe-laser.pdf"with all link of component you need for laser harp  
 
 
