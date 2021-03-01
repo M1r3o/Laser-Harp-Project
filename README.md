@@ -12,7 +12,7 @@ This project has Maked in collaboration with Frederic_Wauters, he help me to und
 ## Demo of Laser Harp
 ### [Demo Laser Harp](https://youtu.be/7bUMFFDsR9I)
 
-### to make this version of laser harp you need some more component  
+## to make this version of laser harp you need some more component  
 ## -----------Laser---------------------------    
 * ### Powerfull Laser Module (100mW minimum)  
 ## -----------To control Galva Scanner--------  
