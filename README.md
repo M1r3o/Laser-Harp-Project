@@ -1,4 +1,6 @@
 # Laser-Harp-Project
+![Laser Harp](https://content.instructables.com/ORIG/FIG/O8CM/HNTTEFYE/FIGO8CMHNTTEFYE.jpg?auto=webp&frame=1&fit=bounds&md=88a3bb9fb656674cf05b42b20a9c1f84)
+
 
 This project has Maked in collaboration with Frederic_Wauters, he help me to understand the principle work of the laser harp and in the arduino code 
 
