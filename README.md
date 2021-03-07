@@ -4,9 +4,9 @@
 
 This project is Made in collaboration with Frederic_Wauters, he helped me to understand the principle work of the laser harp and in the arduino code 
 
- This repository is a Save of all of my research , test , version , of Laser Harp     
+ This repository is a gather of all of my research, test , version, of Laser Harp     
 
-/!\ The Light of Laser is very dangerous for the eyes , protect your eyes with a specific goggles /!\  
+/!\ The Light of Laser is very dangerous for the eyes, protect your eyes with a specific goggles /!\  
 
  This repository may not be complete but the main, schematics, code, plans is here to help you in this project   
  I have saved the bases about Laser Harp , to you built your version of this mythic instrument   
