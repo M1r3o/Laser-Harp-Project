@@ -25,7 +25,7 @@ This project is Made in collaboration with Frederic_Wauters, he helped me to und
 * ### Precise Protentiometer 10K and 47k  
 ## -----------Sensor V1-----------------------
 * ### LM393 or LM339  
-* ### TAOS TL257 (or equivalent)  
+* ### TAOS TSL257 (or equivalent)  
 * ### Resistor 1K (see in schematics , this is an example , you can to employ diferent reistor , but you need to calcul consommation (mA) of your comparator system and arduino (Max 250mA for arduino)  
 * ### Potentiometer 10K  
 ## -----------Another------------------------  
