@@ -1,10 +1,10 @@
 //release by M1r3o & Frederic Wauters
-//Creative Commons CC-BY-SA 2021
+//Creative Commons CC-BY-NC 2021
 //Harpe_V1.4_MIDI_Edition
 
 // Created by Frederic Wauters and Istchenko de Carvalho Marco under Creative Commons Licence CC-BY-NC
 // This code is delivered with no warranties and you use it at your own risks.
-// Version 1.0 - 2021-03-04 - F. Wauters Belgium
+// Version 1.0 - 2021-08-12 - F. Wauters Belgium - M. Istchenko de Carvalho France 
 
 // PLEASE READ THIS IMPORTANT NOTICE
 // SVP LISEZ CETTE NOTE IMPORTANTE
