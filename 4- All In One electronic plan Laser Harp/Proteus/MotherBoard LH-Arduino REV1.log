@@ -1,0 +1,12 @@
+# Writing all output to: C:\Users\Marco\Desktop\All_dossier\Projet\LH-Arduino\4- All In One electronic plan Laser Harp\Proteus\MotherBoard LH-Arduino REV1.log
+set pad_wire_necking on
+bus diagonal
+fanout 5
+route 100
+clean 2
+route 100 16
+clean 2
+filter 5
+recorner diagonal
+status_file
+
