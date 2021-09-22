@@ -1,5 +1,5 @@
 //release by M1r3o & Frederic Wauters
-//Creative Commons CC-BY-SA 2021
+//Creative Commons CC-BY-NC-SA 2021
 //Harpe_V1.5_MIDI_Edition
 
 // Created by Frederic Wauters and Istchenko de Carvalho Marco under Creative Commons Licence CC-BY-NC
@@ -29,7 +29,7 @@
 // Ce code est fourni sans aucune garantie et vous l'utilisez a vos risques et perils.
 // Version 1.0 - 2021-03-04 - F. Wauters Belgium
 //
-// A propos de CC-BY-NC
+// A propos de CC-BY-NC-SA
 // --------------------
 // Vous POUVEZ        : partager, copier, distribuer et communiquer le code par tous
 //                      moyens et sous tous formats.
