@@ -9,7 +9,7 @@
 // PLEASE READ THIS IMPORTANT NOTICE
 // SVP LISEZ CETTE NOTE IMPORTANTE
 //
-// About CC-BY-NC...
+// About About CC-BY-NC-SA...
 // -----------------
 // You CAN    : share, copy, redistribute, adapt, remix, transform and build using
 //              the code.
