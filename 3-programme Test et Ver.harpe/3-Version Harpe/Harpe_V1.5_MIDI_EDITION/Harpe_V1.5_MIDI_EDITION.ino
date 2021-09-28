@@ -176,10 +176,10 @@ void loop() {
         Notes[cordeCourante][FLAGON] = 0 ;
       }
 
-      if (digitalRead(buttonLevelSensor) == HIGH) {
-        variation = analogRead(A0) ;
-        variation = variation/8; //Passage CAN 10 Bits vers 7 Bits
-        Notes[cordeCourante][VARIATION] = 0 + variation ;
+      if (digitalRead(buttonLevelSensor) == HIGH) { // cette partie la traite de la detection de la hauteur de main avec le TSL 257
+        variation = analogRead(A0) ;// detection de la hauteur de 0 a 5V sur un CAN de 10 bit 
+        variation = variation/8; //conversion CAN 10 Bits vers 7 Bits
+        Notes[cordeCourante][VARIATION] = 0 + variation ; // sur le sustain (intensité de la note) de la note joué, enregistrement et actualisation a chaque balayage du faisceaux
       }
       else {
         Notes[cordeCourante][VARIATION] = 127 ;
