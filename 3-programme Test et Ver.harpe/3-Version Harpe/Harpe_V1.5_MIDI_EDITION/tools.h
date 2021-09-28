@@ -15,7 +15,7 @@ void noteOff(int pitch) {
   Serial.write(0);
 }
 
-void handHeight( int pitch, int velocity){
+void variationHand( int pitch, int velocity){
   Serial.write(0xB0);
   Serial.write(pitch);
   Serial.write(velocity);
