@@ -3,20 +3,20 @@
 --MIDI Function--
 *******************
 */
-void noteOn(int cmd, int pitch) {
-  Serial.write(cmd);
+void noteOn(int pitch) {
+  Serial.write(0x90);
   Serial.write(pitch);
   Serial.write(127);
 }
 
-void noteOff(int cmd, int pitch) {
-  Serial.write(cmd);
+void noteOff(int pitch) {
+  Serial.write(0x90);
   Serial.write(pitch);
   Serial.write(0);
 }
 
-void Variation(int cmd, int pitch, int velocity){
-  Serial.write(cmd);
+void Variation( int pitch, int velocity){
+  Serial.write(0xB0);
   Serial.write(pitch);
   Serial.write(velocity);
 }
