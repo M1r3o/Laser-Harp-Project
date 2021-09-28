@@ -171,7 +171,7 @@ void loop() {
       }
       if (digitalRead(pinSensor) == true && Notes[cordeCourante][FLAGON] == 0) {// Si la note etait jusqu'ici Off et que la detection pour la corde desire est faite
         // Il faut jouer la note (MIDI)
-        noteOn(0x90, Notes[cordeCourante][NOTE_MIDI],127);
+        noteOn(0x90, Notes[cordeCourante][NOTE_MIDI]);
         // On memorise que cette corde joue , pour ne pas la rejouer(diiiiing,diiiing,diiiiing, (2eme condition If)
         //ont tient la note (allumee), jusqu'a ce qu'on retire la main
         Notes[cordeCourante][FLAGON] = 1;
@@ -182,7 +182,7 @@ void loop() {
         // Il faut arreter ,ou, ne pas de jouer la note (MIDI)
         //memoriser que cette note n'est plus jouee
         // On memorise que cette corde ne joue pas
-        noteOn(0x90, Notes[cordeCourante][NOTE_MIDI], 0); // on envoie une note mais ayant une velocite de 0 , donc elle ne sera pas joue
+        noteOff(0x90, Notes[cordeCourante][NOTE_MIDI]); // on envoie une note mais ayant une velocite de 0 , donc elle ne sera pas joue
         Notes[cordeCourante][FLAGON] = 0 ;
       }
       delay(pausePersistence);
