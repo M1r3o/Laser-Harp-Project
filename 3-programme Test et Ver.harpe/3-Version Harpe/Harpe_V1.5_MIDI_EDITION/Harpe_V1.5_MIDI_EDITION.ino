@@ -160,18 +160,19 @@ void loop() {
       // Allumer le laser
       digitalWrite(laserPin, HIGH);
       laserStatut = true;
+     
       if (digitalRead(buttonLevelSensor) == HIGH) { // cette partie la traite de la detection de la hauteur de main avec le TSL 257
         variation = analogRead(A0) ;// detection de la hauteur de 0 a 5V sur un CAN de 10 bit 
         variation = variation/8; //conversion CAN 10 Bits vers 7 Bits
         Notes[cordeCourante][VARIATION] = 0 + variation ; // sur le sustain (intensité de la note) de la note joué, enregistrement et actualisation a chaque balayage du faisceaux
-        Variation(0xB0,Notes[cordeCourante][NOTE_MIDI], Notes[cordeCourante][VARIATION]);//ModWheel sur la note concerné 
+        Variation(Notes[cordeCourante][NOTE_MIDI], Notes[cordeCourante][VARIATION]);//ModWheel sur la note concerné 
       }
       else {
         Notes[cordeCourante][VARIATION] = 127 ;
       }
       if (digitalRead(pinSensor) == true && Notes[cordeCourante][FLAGON] == 0) {// Si la note etait jusqu'ici Off et que la detection pour la corde desire est faite
         // Il faut jouer la note (MIDI)
-        noteOn(0x90, Notes[cordeCourante][NOTE_MIDI]);
+        noteOn(Notes[cordeCourante][NOTE_MIDI]);
         // On memorise que cette corde joue , pour ne pas la rejouer(diiiiing,diiiing,diiiiing, (2eme condition If)
         //ont tient la note (allumee), jusqu'a ce qu'on retire la main
         Notes[cordeCourante][FLAGON] = 1;
@@ -182,7 +183,7 @@ void loop() {
         // Il faut arreter ,ou, ne pas de jouer la note (MIDI)
         //memoriser que cette note n'est plus jouee
         // On memorise que cette corde ne joue pas
-        noteOff(0x90, Notes[cordeCourante][NOTE_MIDI]); // on envoie une note mais ayant une velocite de 0 , donc elle ne sera pas joue
+        noteOff(Notes[cordeCourante][NOTE_MIDI]); // on envoie une note mais ayant une velocite de 0 , donc elle ne sera pas joue
         Notes[cordeCourante][FLAGON] = 0 ;
       }
       delay(pausePersistence);
