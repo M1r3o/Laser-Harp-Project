@@ -164,8 +164,7 @@ void loop() {
       laserStatut = true;
      
       if (digitalRead(buttonLevelSensor) == HIGH) { // cette partie la traite de la detection de la hauteur de main avec le TSL 257
-        variation = analogRead(A0) ;// detection de la hauteur de 0 a 5V sur un CAN de 10 bit 
-        variation = variation/8; //conversion CAN 10 Bits vers 7 Bits
+        variation = analogRead(A0)/8; //detection de la hauteur de 0 a 5V sur un CAN de 10 bit puis conversion CAN 10 Bits vers 7 Bits
         Notes[cordeCourante][VARIATION] = 0 + variation ; // sur le sustain (intensité de la note) de la note joué, enregistrement et actualisation a chaque balayage du faisceaux
         variationHand(Notes[cordeCourante][NOTE_MIDI], Notes[cordeCourante][VARIATION]);//ModWheel sur la note concerné 
       }
