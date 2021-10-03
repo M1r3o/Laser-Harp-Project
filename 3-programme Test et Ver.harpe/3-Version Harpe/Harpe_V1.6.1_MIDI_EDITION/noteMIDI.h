@@ -46,7 +46,7 @@
 //                      suggerer que l'Offrant vous soutient ou soutient la facon dont vous
 //                      avez utilise son travail.
 //
-// Informations complètes concernant la licence CC-BY-NC :
+// Informations complètes concernant la licence CC-BY-NC-SA :
 //    https://creativecommons.org/licenses/by-nc-sa/2.0/be/deed.fr
 
 
