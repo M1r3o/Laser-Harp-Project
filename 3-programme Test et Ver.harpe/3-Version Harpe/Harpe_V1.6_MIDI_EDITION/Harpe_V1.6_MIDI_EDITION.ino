@@ -94,6 +94,7 @@ void loop() {
   // C'est la raison de son nom. Lorsque tout y a ete execute, il recommence.
   reverse();
   vibration();
+  HauteurMain(); 
   //Serial.println(NOTE_MIDI);
   dac.setValue(2047);
 
