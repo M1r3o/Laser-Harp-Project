@@ -25,7 +25,7 @@
 //
 // Complete informations about CC-BY-NC-SA licence :
 //    https://creativecommons.org/licenses/by-nc-sa/2.0/be/deed.en
-// Cree par Frederic Wauters et Marco Istchenko de Carvalho sous licence Creative Commons CC-BY-NC
+// Cree par Frederic Wauters et Marco Istchenko de Carvalho sous licence Creative Commons CC-BY-NC-SA
 // Ce code est fourni sans aucune garantie et vous l'utilisez a vos risques et perils.
 // Version 1.0 - 2021-03-04 - F. Wauters Belgium
 //
@@ -48,7 +48,6 @@
 //
 // Informations complètes concernant la licence CC-BY-NC-SA :
 //    https://creativecommons.org/licenses/by-nc-sa/2.0/be/deed.fr
-
 
 // /!\ to send notes , we have configured serial protocol to 115200 Bytes/seconds
 // we used to send MIDI notes : Hairless MIDI Serial (to send MIDI notes from Arduino to Standalone Synthesizer via USB->MIDI converter)
