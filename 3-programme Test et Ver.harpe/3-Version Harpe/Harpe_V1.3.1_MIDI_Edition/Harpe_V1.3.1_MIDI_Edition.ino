@@ -1,5 +1,5 @@
 //release by M1r3o & Frederic Wauters
-//Creative Commons CC-BY-SA 2021
+//Creative Commons CC-BY-NC-SA 2021
 //Harpe_V1.3.1_MIDI_Edition
 
 // Created by Frederic Wauters and Istchenko de Carvalho Marco under Creative Commons Licence CC-BY-NC
@@ -9,7 +9,7 @@
 // PLEASE READ THIS IMPORTANT NOTICE
 // SVP LISEZ CETTE NOTE IMPORTANTE
 //
-// About CC-BY-NC...
+// About CC-BY-NC-SA...
 // -----------------
 // You CAN    : share, copy, redistribute, adapt, remix, transform and build using
 //              the code.
@@ -23,13 +23,13 @@
 //              if changes were made. You may do so in any reasonable manner, but not
 //              in any way that suggests the licensor endorses you or your use.
 //
-// Complete informations about CC-BY-NC licence :
-//    https://creativecommons.org/licenses/by-nc/2.0/be/deed.en
+// Complete informations about CC-BY-NC-SA licence :
+//    https://creativecommons.org/licenses/by-nc-sa/2.0/be/deed.en
 // Cree par Frederic Wauters et Marco Istchenko de Carvalho sous licence Creative Commons CC-BY-NC
 // Ce code est fourni sans aucune garantie et vous l'utilisez a vos risques et perils.
 // Version 1.0 - 2021-03-04 - F. Wauters Belgium
 //
-// A propos de CC-BY-NC
+// A propos de CC-BY-NC-SA
 // --------------------
 // Vous POUVEZ        : partager, copier, distribuer et communiquer le code par tous
 //                      moyens et sous tous formats.
@@ -46,8 +46,8 @@
 //                      suggerer que l'Offrant vous soutient ou soutient la facon dont vous
 //                      avez utilise son travail.
 //
-// Informations complètes concernant la licence CC-BY-NC :
-//    https://creativecommons.org/licenses/by-nc/2.0/be/deed.fr
+// Informations complètes concernant la licence CC-BY-NC-SA :
+//    https://creativecommons.org/licenses/by-nc-sa/2.0/be/deed.fr
 
 
 
