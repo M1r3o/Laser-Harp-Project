@@ -2,7 +2,7 @@
 //Creative Commons CC-BY-NC-SA 2021
 //Harpe_V1.6.1_MIDI_Edition
 
-// Created by Frederic Wauters and Istchenko de Carvalho Marco under Creative Commons Licence CC-BY-NC
+// Created by Frederic Wauters and Istchenko de Carvalho Marco under Creative Commons Licence CC-BY-NC-SA
 // This code is delivered with no warranties and you use it at your own risks.
 // Version 1.0 - 2021-03-04 - F. Wauters Belgium
 
