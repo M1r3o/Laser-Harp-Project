@@ -16,7 +16,6 @@ void noteOff(int pitch) {
 }
 
 void variationHand( int pitch, int velocity){
-  HauteurMain(); 
   Serial.write(adresseMIDIeffet);
   Serial.write(pitch);
   Serial.write(velocity);
