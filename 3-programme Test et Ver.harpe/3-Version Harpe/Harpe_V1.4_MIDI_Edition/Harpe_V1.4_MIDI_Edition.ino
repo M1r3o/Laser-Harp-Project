@@ -2,9 +2,9 @@
 //Creative Commons CC-BY-NC-SA 2021
 //Harpe_V1.4_MIDI_Edition
 
-// Created by Frederic Wauters and Istchenko de Carvalho Marco under Creative Commons Licence CC-BY-NC
+// Created by Frederic Wauters and Istchenko de Carvalho Marco under Creative Commons Licence CC-BY-NC-SA
 // This code is delivered with no warranties and you use it at your own risks.
-// Version 1.0 - 2021-03-04 - F. Wauters Belgium
+// Version 1.0 - 2021-03-04 - F. Wauters Belgium - M . istchenko de Carvalho France
 
 // PLEASE READ THIS IMPORTANT NOTICE
 // SVP LISEZ CETTE NOTE IMPORTANTE
@@ -25,9 +25,9 @@
 //
 // Complete informations about CC-BY-NC-SA licence :
 //    https://creativecommons.org/licenses/by-nc-sa/2.0/be/deed.en
-// Cree par Frederic Wauters et Marco Istchenko de Carvalho sous licence Creative Commons CC-BY-NC
+// Cree par Frederic Wauters et Marco Istchenko de Carvalho sous licence Creative Commons CC-BY-NC-SA
 // Ce code est fourni sans aucune garantie et vous l'utilisez a vos risques et perils.
-// Version 1.0 - 2021-03-04 - F. Wauters Belgium
+// Version 1.0 - 2021-03-04 - F. Wauters Belgium - M . istchenko de Carvalho France
 //
 // A propos de CC-BY-NC-SA
 // --------------------
@@ -48,6 +48,7 @@
 //
 // Informations complètes concernant la licence CC-BY-NC-SA :
 //    https://creativecommons.org/licenses/by-nc-sa/2.0/be/deed.fr
+
 
 // /!\ to send notes , we have configured serial protocol to 115200 Bytes/seconds
 // we used to send MIDI notes : Hairless MIDI Serial (to send MIDI notes from Arduino to Standalone Synthesizer via USB->MIDI converter)
