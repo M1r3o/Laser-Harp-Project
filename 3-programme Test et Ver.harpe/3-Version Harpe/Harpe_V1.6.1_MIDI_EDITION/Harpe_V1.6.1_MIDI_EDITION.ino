@@ -49,11 +49,30 @@
 // Informations complètes concernant la licence CC-BY-NC-SA :
 //    https://creativecommons.org/licenses/by-nc-sa/2.0/be/deed.fr
 
-// /!\ to send notes , we have configured serial protocol to 115200 Bytes/seconds
-// we used to send MIDI notes : Hairless MIDI Serial (to send MIDI notes from Arduino to Standalone Synthesizer via USB->MIDI converter)
-// Enter into setup and choose 115200 bauds rates
-// to change option (actually vibration corde and reverse mode for note, go to "settings.h"
-// (: enjoy :)
+/*
+********************************************************************************************************************************************
+                                                                        -HOW TO USE- EN
+                                                                     -COMMMENT UTILISER- FR
+********************************************************************************************************************************************
+*********
+-ENGLISH-
+*********
+/!\ to send notes , we have configured serial protocol to 115200 Bytes/seconds
+we used to send MIDI notes : Hairless MIDI Serial (to send MIDI notes from Arduino to Standalone Synthesizer via USB->MIDI converter)
+Enter into setup and choose 115200 bauds rates
+to change option (actually vibration corde, reverse mode for note, hand effect and note selection go to "settings.h"
+(: enjoy :)
+*********
+-FRANCAIS
+*********
+/!\ pour envoyer les notes, nous avons configuré le port série a 115200 baud 
+nous avons utilisé pour envoyer les notes MIDI le logiciel Hairless MIDI serial (pour envoyer les notes de l'arduino vers un synthetiseur standalone via le pc 
+Arduino -> Pc -> Synthetiseur standalone
+pour recevoir correctement les notes sur l'ordinateurs veuillez aller dans la fenetre setup et sélectionnez 115200 bauds rates
+pour ajouter/retirer des options, veuillez vous référer au fichier "settings.h" (actuellement les options sont vibration de la corde, reverse mode des notes, l'effet utilisé 
+pour la main et la selection de la gamme de note
+*/
+
 
 //////////////////////////////
 ////////dependance///////////
@@ -92,10 +111,11 @@ void loop() {
 
   // Le loop est la partie qui est "rejouee" en permanence par l'Arduino.
   // C'est la raison de son nom. Lorsque tout y a ete execute, il recommence.
-  reverse();
-  vibration();
-  selectionNotes();
-  HauteurMain();
+  
+  reverse(); //fonction appelé pour l'option de reverse des notes
+  vibration(); //fonction appelé pour l'option de vibration de la corde joué
+  selectionNotes(); //fonction appelé pour la sélection des notes voulue 
+  HauteurMain(); // fonction appelé pour l'effet à choisir pour la hauteur de main 
   //Serial.println(NOTE_MIDI);
   dac.setValue(2047);
 
@@ -164,7 +184,7 @@ void loop() {
       laserStatut = true;
 
       if (digitalRead(buttonLevelSensor) == HIGH) { // cette partie la traite de la detection de la hauteur de main avec le TSL 257
-        variation = analogRead(A0) / 8; //detection de la hauteur de 0 a 5V sur un CAN de 10 bit puis conversion CAN 10 Bits vers 7 Bits
+        variation = analogRead(A0) / 8; //detection de la hauteur de 0 a 5V sur un CAN de 10 bit puis conversion CAN 10 Bits vers 7 Bits pour le MIDI
         Notes[cordeCourante][VARIATION] = 0 + variation ; // sur le sustain (intensité de la note) de la note joué, enregistrement et actualisation a chaque balayage du faisceaux
         variationHand(Notes[cordeCourante][NOTE_MIDI], Notes[cordeCourante][VARIATION]);//ModWheel sur la note concerné
       }
