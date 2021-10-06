@@ -71,6 +71,7 @@ Arduino -> Pc -> Synthetiseur standalone
 pour recevoir correctement les notes sur l'ordinateurs veuillez aller dans la fenetre setup et sélectionnez 115200 bauds rates
 pour ajouter/retirer des options, veuillez vous référer au fichier "settings.h" (actuellement les options sont vibration de la corde, reverse mode des notes, l'effet utilisé 
 pour la main et la selection de la gamme de note
+***********************************************************************************************************************************
 */
 
 
