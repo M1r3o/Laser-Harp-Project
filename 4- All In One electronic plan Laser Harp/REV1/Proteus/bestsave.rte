@@ -1,0 +1,385 @@
+ (routes 
+  (resolution mm 100000)
+  (parser
+  )
+  (parser
+  )
+  (structure_out
+   (layer TOP (type signal)
+   )
+   (layer I1 (type signal)
+   )
+   (layer I2 (type signal)
+   )
+   (layer I3 (type signal)
+   )
+   (layer I4 (type signal)
+   )
+   (layer I5 (type signal)
+   )
+   (layer I6 (type signal)
+   )
+   (layer I7 (type signal)
+   )
+   (layer I8 (type signal)
+   )
+   (layer I9 (type signal)
+   )
+   (layer I10 (type signal)
+   )
+   (layer I11 (type signal)
+   )
+   (layer I12 (type signal)
+   )
+   (layer I13 (type signal)
+   )
+   (layer I14 (type signal)
+   )
+   (layer BOT (type signal)
+   )
+  )
+  (library_out
+  (padstack $VIA#0_SIGNAL
+   (shape (circ TOP 76200 0 0))
+   (shape (circ I1 76200 0 0))
+   (shape (circ I2 76200 0 0))
+   (shape (circ I3 76200 0 0))
+   (shape (circ I4 76200 0 0))
+   (shape (circ I5 76200 0 0))
+   (shape (circ I6 76200 0 0))
+   (shape (circ I7 76200 0 0))
+   (shape (circ I8 76200 0 0))
+   (shape (circ I9 76200 0 0))
+   (shape (circ I10 76200 0 0))
+   (shape (circ I11 76200 0 0))
+   (shape (circ I12 76200 0 0))
+   (shape (circ I13 76200 0 0))
+   (shape (circ I14 76200 0 0))
+   (shape (circ BOT 76200 0 0))
+  )
+  (padstack $VIA#0_POWER
+   (shape (circ TOP 76200 0 0))
+   (shape (circ I1 76200 0 0))
+   (shape (circ I2 76200 0 0))
+   (shape (circ I3 76200 0 0))
+   (shape (circ I4 76200 0 0))
+   (shape (circ I5 76200 0 0))
+   (shape (circ I6 76200 0 0))
+   (shape (circ I7 76200 0 0))
+   (shape (circ I8 76200 0 0))
+   (shape (circ I9 76200 0 0))
+   (shape (circ I10 76200 0 0))
+   (shape (circ I11 76200 0 0))
+   (shape (circ I12 76200 0 0))
+   (shape (circ I13 76200 0 0))
+   (shape (circ I14 76200 0 0))
+   (shape (circ BOT 76200 0 0))
+  )
+  (padstack PS8
+   (shape (circ TOP 76200 0 0))
+   (shape (circ I1 76200 0 0))
+   (shape (circ I2 76200 0 0))
+   (shape (circ I3 76200 0 0))
+   (shape (circ I4 76200 0 0))
+   (shape (circ I5 76200 0 0))
+   (shape (circ I6 76200 0 0))
+   (shape (circ I7 76200 0 0))
+   (shape (circ I8 76200 0 0))
+   (shape (circ I9 76200 0 0))
+   (shape (circ I10 76200 0 0))
+   (shape (circ I11 76200 0 0))
+   (shape (circ I12 76200 0 0))
+   (shape (circ I13 76200 0 0))
+   (shape (circ I14 76200 0 0))
+   (shape (circ BOT 76200 0 0))
+  )
+  )
+  (network_out
+   (Net #00001 
+   (rule
+   )
+   (wire (path TOP 25400  4766000 6500000 4508500 6500000 4508500 6731000
+     -254000 6731000 -254000 5334000 -4000 5334000 -4000 5004000)
+    (connect (terminal pin R1-1) (terminal pin OFFSET-0))
+   )
+   )
+   (Net #00002 
+   (rule
+   )
+   (wire (path TOP 25400  2758000 5500000 2758000 4750000 250000 4750000)
+    (connect (terminal pin U1-2) (terminal pin OFFSET-2))
+   )
+   )
+   (Net #00004 
+   (rule
+   )
+   (wire (path BOT 25400  9000000 11234000 6896899 11234000 6896899 11747500
+     3619500 11747500 3619500 6286500 3750000 6286500 3750000 6000000)
+    (connect (terminal pin MCP4725-0) (terminal pin R2-0))
+   )
+   )
+   (Net #00005 
+   (rule
+   )
+   (wire (path TOP 25400  2540000 5778500 4508500 5778500 4508500 6000000
+     4766000 6000000)
+    (connect (terminal wire) (terminal pin R2-1))
+   )
+   (wire (path TOP 25400  2540000 5778500 2540000 5842000 2032000 5842000
+     2032000 5588000 571500 5588000 571500 5750000 250000 5750000)
+    (connect (terminal wire) (terminal pin GAIN-2))
+   )
+   (wire (path TOP 25400  2540000 5778500 2540000 5651500 2504000 5651500
+     2504000 5500000)
+    (connect (terminal wire) (terminal pin U1-1))
+   )
+   )
+   (Net #00006 
+   (rule
+   )
+   (wire (path TOP 25400  3750000 5500000 3750000 5334000 3483911 5334000
+     3483911 4626149 2250000 4626149 2250000 3250000)
+    (connect (terminal pin R3-0) (terminal pin "OUT GALVO"-0))
+   )
+   (wire (path TOP 25400  2250000 5500000 -4000 5500000 -4000 6004000)
+    (connect (terminal pin U1-0) (terminal pin GAIN-0))
+   )
+   (wire (path BOT 25400  2250000 5500000 2250000 5778500 2095500 5778500
+     2095500 6413500 2885000 6413500 2885000 5995497 3492500 5995497
+     3492500 5500000 3750000 5500000)
+    (connect (terminal pin U1-0) (terminal pin R3-0))
+   )
+   (wire (path BOT 25400  2250000 3250000 2250000 2000000)
+    (connect (terminal pin "OUT GALVO"-0) (terminal pin "CALIBRAGE TENSION GALVO"-0))
+   )
+   )
+   (Net #00008 
+   (rule
+   )
+   (wire (path BOT 25400  2758000 6262000 2758000 5842000 2883950 5842000
+     2883950 5334000 2921000 5334000 2921000 5000000 3750000 5000000)
+    (connect (terminal pin U1-5) (terminal pin R4-0))
+   )
+   (wire (path TOP 25400  3750000 5000000 4064000 5000000 4064000 5228885
+     4766000 5228885 4766000 5500000)
+    (connect (terminal pin R4-0) (terminal pin R3-1))
+   )
+   )
+   (Net #00010 
+   (rule
+   )
+   (wire (path BOT 25400  2794000 4889500 2794000 4826000)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path BOT 25400  2794000 4889500 2857500 4889500 2857500 4762500
+     4508500 4762500 4508500 5000000 4766000 5000000)
+    (connect (terminal wire) (terminal pin R4-1))
+   )
+   (wire (path BOT 25400  2794000 4889500 2631000 4889500 2631000 5745710
+     2504000 5745710 2504000 6262000)
+    (connect (terminal wire) (terminal pin U1-6))
+   )
+   (wire (path BOT 25400  2794000 4826000 2794000 3797232 2758000 3797232
+     2758000 3250000)
+    (connect (terminal wire) (terminal pin "OUT GALVO"-2))
+   )
+   (wire (path BOT 25400  2758000 3250000 2758000 2000000)
+    (connect (terminal pin "OUT GALVO"-2) (terminal pin "CALIBRAGE TENSION GALVO"-2))
+   )
+   )
+   (Net #00013 
+   (rule
+   )
+   (wire (path BOT 25400  10774000 10024000 10774000 11742000 9000000 11742000)
+    (connect (terminal pin U4-23) (terminal pin MCP4725-2))
+   )
+   )
+   (Net #00014 
+   (rule
+   )
+   (wire (path TOP 25400  11028000 10024000 11028000 11996000 9000000 11996000)
+    (connect (terminal pin U4-22) (terminal pin MCP4725-3))
+   )
+   )
+   (Net #00021 
+   (rule
+   )
+   (wire (path BOT 25400  12636500 6540500 12425000 6540500 12425000 8763000
+     12044000 8763000 12044000 8500000)
+    (connect (terminal via) (terminal pin U4-11))
+   )
+   (wire (path TOP 25400  12636500 6540500 12636500 6500000 13250000 6500000)
+    (connect (terminal via) (terminal pin "PEDALE OPEN/CLOSE (JACK IN)"-0))
+   )
+   (wire (path BOT 25400  12500000 5750000 12500000 5524500 12636500 5524500
+     12636500 6540500)
+    (connect (terminal pin R6-0) (terminal via))
+   )
+   (via $VIA#0_SIGNAL 12636500 6540500)
+   )
+   (Net #00025 
+   (rule
+   )
+   (wire (path BOT 25400  11750000 6500000 11750000 8087359 11028000 8087359
+     11028000 8500000)
+    (connect (terminal pin "PEDALE VARIATION (JACK IN)"-0) (terminal pin U4-7))
+   )
+   (wire (path TOP 25400  10500000 5750000 10500000 6500000 11750000 6500000)
+    (connect (terminal pin R7-0) (terminal pin "PEDALE VARIATION (JACK IN)"-0))
+   )
+   )
+   (Net #00036 
+   (rule
+   )
+   (wire (path BOT 25400  10520000 8500000 10473200 8500000 10473200 6571460
+     8254000 6571460 8254000 3250000)
+    (connect (terminal pin U4-5) (terminal pin "LASER G"-1))
+   )
+   )
+   (Net #00037 
+   (rule
+   )
+   (wire (path BOT 25400  10266000 8500000 10266000 7566367 6504000 7566367
+     6504000 3250000)
+    (connect (terminal pin U4-4) (terminal pin "LASER R"-1))
+   )
+   )
+   (Net #00038 
+   (rule
+   )
+   (wire (path BOT 25400  10004000 3250000 10524000 3770000 10524000 8500000
+     10774000 8500000)
+    (connect (terminal pin "LASER B"-1) (terminal pin U4-6))
+    (type protect)
+   )
+   )
+   (Net #00042 
+   (rule
+   )
+   (wire (path BOT 25400  12044000 10024000 12044000 8913412 13017500 8913412
+     13017500 7171161 12890500 7171161 12890500 2860300 13110300 2860300)
+    (connect (terminal pin U4-18) (terminal pin DB1-6))
+   )
+   )
+   (Net #00051 
+   (rule
+   )
+   (wire (path BOT 25400  12298000 8500000 12298000 2580900 13110300 2580900)
+    (connect (terminal pin U4-12) (terminal pin DB1-5))
+   )
+   )
+   (Net +12V 
+   (rule
+   )
+   (wire (path BOT 25400  4250000 11500000 4250000 6794500 3750000 6794500
+     3750000 6500000)
+    (connect (terminal pin "ALIM SYMETRIQUE 12V"-0) (terminal pin R1-0))
+   )
+   (wire (path TOP 25400  3750000 6500000 2250000 6500000 2250000 6262000)
+    (connect (terminal pin R1-0) (terminal pin U1-7))
+   )
+   (wire (path TOP 25400  2250000 6262000 2250000 6000000 1500000 6000000)
+    (connect (terminal pin U1-7) (terminal pin C1-0))
+   )
+   )
+   (Net +5V 
+   (rule
+   )
+   (wire (path BOT 25400  9000000 12250000 10901000 12250000 10901000 7182811
+     10922000 7182811 10922000 6246000 11750000 6246000)
+    (connect (terminal pin MCP4725-4) (terminal pin "PEDALE VARIATION (JACK IN)"-1))
+   )
+   (wire (path TOP 25400  9000000 12250000 2794000 12250000 2794000 11500000
+     2504000 11500000)
+    (connect (terminal pin MCP4725-4) (terminal pin "ALIM +5 V"-1))
+   )
+   (wire (path BOT 25400  13250000 6246000 13250000 5969000 12954000 5969000
+     12954000 3139700 13110300 3139700)
+    (connect (terminal pin "PEDALE OPEN/CLOSE (JACK IN)"-1) (terminal pin DB1-7))
+   )
+   (wire (path TOP 25400  11750000 6246000 13250000 6246000)
+    (connect (terminal pin "PEDALE VARIATION (JACK IN)"-1) (terminal pin "PEDALE OPEN/CLOSE (JACK IN)"-1))
+   )
+   )
+   (Net -12V 
+   (rule
+   )
+   (wire (path BOT 25400  4758000 11500000 4758000 7275561 4445000 7275561
+     4445000 5270500 3012000 5270500 3012000 5500000)
+    (connect (terminal pin "ALIM SYMETRIQUE 12V"-2) (terminal pin U1-3))
+   )
+   (wire (path TOP 25400  2984500 5905500 1810026 5905500 1810026 5746000
+     1500000 5746000)
+    (connect (terminal via) (terminal pin C1-1))
+   )
+   (wire (path BOT 25400  3012000 5500000 3012000 5905500 2984500 5905500)
+    (connect (terminal pin U1-3) (terminal via))
+   )
+   (via $VIA#0_POWER 2984500 5905500)
+   )
+   (Net GND 
+   (rule
+   )
+   (wire (path TOP 25400  2504000 3250000 2504000 2984500 5969000 2984500
+     5969000 3250000 6250000 3250000)
+    (connect (terminal pin "OUT GALVO"-1) (terminal pin "LASER R"-0))
+   )
+   (wire (path BOT 25400  13110300 3419100 13110300 3683000 13516000 3683000
+     13516000 5750000)
+    (connect (terminal pin DB1-8) (terminal pin R6-1))
+   )
+   (wire (path BOT 25400  2032000 5080000 2504000 5080000 2504000 3250000)
+    (connect (terminal wire) (terminal pin "OUT GALVO"-1))
+   )
+   (wire (path BOT 25400  9504000 10024000 9504000 11488000 9000000 11488000)
+    (connect (terminal pin U4-28) (terminal pin MCP4725-1))
+   )
+   (wire (path BOT 25400  2286000 6540500 2032000 6540500 2032000 5080000)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path BOT 25400  2286000 6540500 3012000 6540500 3012000 6262000)
+    (connect (terminal wire) (terminal pin U1-4))
+   )
+   (wire (path BOT 25400  2250000 11500000 2250000 9848660 2286000 9848660
+     2286000 6540500)
+    (connect (terminal pin "ALIM +5 V"-0) (terminal wire))
+   )
+   (wire (path BOT 25400  2032000 5080000 1473825 5080000 1473825 5004000
+     504000 5004000)
+    (connect (terminal wire) (terminal pin OFFSET-1))
+   )
+   (wire (path TOP 25400  9000000 11488000 7857780 11488000 7857780 11747500
+     4504000 11747500 4504000 11500000)
+    (connect (terminal pin MCP4725-1) (terminal pin "ALIM SYMETRIQUE 12V"-1))
+   )
+   (wire (path TOP 25400  4504000 11500000 4504000 11239500 2250000 11239500
+     2250000 11500000)
+    (connect (terminal pin "ALIM SYMETRIQUE 12V"-1) (terminal pin "ALIM +5 V"-0))
+   )
+   (wire (path TOP 25400  13516000 5750000 13208000 5750000 13208000 5969000
+     11516000 5969000 11516000 5750000)
+    (connect (terminal pin R6-1) (terminal pin R7-1))
+   )
+   (wire (path TOP 25400  6250000 3250000 6250000 3492500 7683500 3492500
+     7683500 3250000 8000000 3250000)
+    (connect (terminal pin "LASER R"-0) (terminal pin "LASER G"-0))
+   )
+   (wire (path BOT 25400  2504000 3250000 2504000 2000000)
+    (connect (terminal pin "OUT GALVO"-1) (terminal pin "CALIBRAGE TENSION GALVO"-1))
+   )
+   (wire (path BOT 25400  9000000 11488000 8763000 11488000 8763000 12504000
+     9000000 12504000)
+    (connect (terminal pin MCP4725-1) (terminal pin MCP4725-5))
+   )
+   (wire (path TOP 25400  8000000 3250000 8202000 3048000 9548000 3048000
+     9750000 3250000)
+    (connect (terminal pin "LASER G"-0) (terminal pin "LASER B"-0))
+    (type protect)
+   )
+   (wire (path TOP 25400  9750000 3250000 9919100 3419100 13110300 3419100)
+    (connect (terminal pin "LASER B"-0) (terminal pin DB1-8))
+    (type protect)
+   )
+   )
+  )
+ )
