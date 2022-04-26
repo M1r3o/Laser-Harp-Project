@@ -60,7 +60,8 @@ int patch_notes [nombre_patch][13] {
   {9,60, 65,67,68,70,71,72,74,75},
   {9,60, 65,67,68,70,71,72,74,75},
   {9,60, 65,67,68,70,71,72,74,75},
-  {9,60, 65,67,68,70,71,72,74,75},
+  {9,60, 65,67,68,70,71,72,74,75}, // ajouter une ligne pour ajouter un patch 
+  // {nombre_de_corde, note1, note2, etc...}, Mise en forme pour ajouter un patch 
 };
 /////////////////////////////////////////////////////////////////////////////////////
 int cpt = 1 ; // varie n fonction de l'appuie sur les pedale
@@ -100,8 +101,8 @@ int boutonClose = 9;     // Bouton fermeture
 bool harpeStatut = false; // Statut (ouverte/fermee)
 bool laserStatut = false; // Statut laser (on/off)
 int pinSensor = 10 ;
-const char pedale_plus = 7 ;
-const char pedale_moins = 8 ;
+const char pedale_plus = 7 ; // pedale patch + 
+const char pedale_moins = 8 ; // pedale patch  - 
 
 int milieu = maxX - minX ;
 ///////////////////////////////////////////////////////
