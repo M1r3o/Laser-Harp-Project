@@ -66,7 +66,7 @@ int patch_notes [nombre_patch][13] {
 /////////////////////////////////////////////////////////////////////////////////////
 int cpt = 1 ; // varie n fonction de l'appuie sur les pedale
 int nbCordes = patch_notes[cpt][1] + 1; // Nombre de cordes (definit automatiquement)
-const int nbNote = nbCordes - 1 ; 
+//const int nbNote = nbCordes - 1 ; 
 ///////////////////////////////////////////////////////////////////////////////////
 
 ////////////////////--NE PAS TOUCHER LES VARIABLES ET FONCTION QUI SUIVENT--/////////////////
@@ -82,7 +82,7 @@ int Notes[][4] = {
   {0, patch_notes [cpt][nbCordes-8], patch_notes [cpt][10], 0},
   {0, patch_notes [cpt][nbCordes-9], patch_notes [cpt][11], 0},
   {0, patch_notes [cpt][nbCordes-10], patch_notes [cpt][12], 0},
-  {0, patch_notes [cpt][-nbCordes-11], patch_notes [cpt][13], 0},
+  {0, patch_notes [cpt][nbCordes-11], patch_notes [cpt][13], 0},
 };
 const int FLAGON = 0;
 int NOTE_MIDI = 0 ;
