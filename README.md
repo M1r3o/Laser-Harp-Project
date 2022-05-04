@@ -11,6 +11,15 @@ This project is Made in collaboration with Frederic_Wauters, he helped me to und
  This repository may not be complete but the main, schematics, code, plans is here to help you in this project   
  I have saved the bases about Laser Harp , to you built your version of this mythic instrument   
 
+Disclaimer : some or any option ( example : strings vibration, RGB parametrable laser beam and the hand height) 
+are inspired by french Laser Harp team : [there Laser Harp website](https://www.harpelaser.com) 
+designed and conceived by (Franck Morisseau, Laurent Ma , and Other Laurent) 
+But the schematics and program are not in relation with him and their team, just option are inspired by their work 
+
+Thanks 
+
+Marco IDC
+
 ## Demo of Laser Harp
 ### [Demo Laser Harp](https://youtu.be/7bUMFFDsR9I)
 
