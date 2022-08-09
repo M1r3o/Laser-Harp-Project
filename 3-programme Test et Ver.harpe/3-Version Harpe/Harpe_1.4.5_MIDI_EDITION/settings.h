@@ -57,32 +57,32 @@ const int nombre_patch = 4 ;
 /////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////--TABLEAU DES NOTES ET VIBRATION--///////////////////////////////////////
 int patch_notes [nombre_patch][13] {
-  {9,60, 65,67,68,70,71,72,74,75},
-  {9,60, 65,67,68,70,71,72,74,75},
-  {9,60, 65,67,68,70,71,72,74,75},
-  {9,60, 65,67,68,70,71,72,74,75}, // ajouter une ligne pour ajouter un patch 
+  {9,60,65,67,68,70,71,72,74,75},
+  {9,60,65,67,68,70,71,72,74,75},
+  {9,60,65,67,68,70,71,72,74,75},
+  {9,60,65,67,68,70,71,72,74,75}, // ajouter une ligne pour ajouter un patch 
   // {nombre_de_corde, note1, note2, etc...}, Mise en forme pour ajouter un patch 
 };
 /////////////////////////////////////////////////////////////////////////////////////
-int cpt = 1 ; // varie n fonction de l'appuie sur les pedale
-int nbCordes = patch_notes[cpt][1] + 1; // Nombre de cordes (definit automatiquement)
+int cpt = 0 ; // varie n fonction de l'appuie sur les pedale
+int nbCordes = patch_notes[cpt][0] + 1; // Nombre de cordes (definit automatiquement)
 //const int nbNote = nbCordes - 1 ; 
 ///////////////////////////////////////////////////////////////////////////////////
 
 ////////////////////--NE PAS TOUCHER LES VARIABLES ET FONCTION QUI SUIVENT--/////////////////
 int Notes[][4] = {
-  {0, patch_notes [cpt][nbCordes], patch_notes [cpt][2], 0},
-  {0, patch_notes [cpt][nbCordes-1], patch_notes [cpt][3], 0},
-  {0, patch_notes [cpt][nbCordes-2], patch_notes [cpt][4], 0},
-  {0, patch_notes [cpt][nbCordes-3], patch_notes [cpt][5], 0},
-  {0, patch_notes [cpt][nbCordes-4], patch_notes [cpt][6], 0},
-  {0, patch_notes [cpt][nbCordes-5], patch_notes [cpt][7], 0},
-  {0, patch_notes [cpt][nbCordes-6], patch_notes [cpt][8], 0},
-  {0, patch_notes [cpt][nbCordes-7], patch_notes [cpt][9], 0},
-  {0, patch_notes [cpt][nbCordes-8], patch_notes [cpt][10], 0},
-  {0, patch_notes [cpt][nbCordes-9], patch_notes [cpt][11], 0},
-  {0, patch_notes [cpt][nbCordes-10], patch_notes [cpt][12], 0},
-  {0, patch_notes [cpt][nbCordes-11], patch_notes [cpt][13], 0},
+  {0, patch_notes [cpt][nbCordes-1], patch_notes [cpt][1], 0},
+  {0, patch_notes [cpt][nbCordes-2], patch_notes [cpt][2], 0},
+  {0, patch_notes [cpt][nbCordes-3], patch_notes [cpt][3], 0},
+  {0, patch_notes [cpt][nbCordes-4], patch_notes [cpt][4], 0},
+  {0, patch_notes [cpt][nbCordes-5], patch_notes [cpt][5], 0},
+  {0, patch_notes [cpt][nbCordes-6], patch_notes [cpt][6], 0},
+  {0, patch_notes [cpt][nbCordes-7], patch_notes [cpt][7], 0},
+  {0, patch_notes [cpt][nbCordes-8], patch_notes [cpt][8], 0},
+  {0, patch_notes [cpt][nbCordes-9], patch_notes [cpt][9], 0},
+  {0, patch_notes [cpt][nbCordes-10], patch_notes [cpt][10], 0},
+  {0, patch_notes [cpt][nbCordes-11], patch_notes [cpt][11], 0},
+  {0, patch_notes [cpt][nbCordes-12], patch_notes [cpt][12], 0},
 };
 const int FLAGON = 0;
 int NOTE_MIDI = 0 ;
@@ -155,12 +155,12 @@ void pedales() {
     dac.setVoltage(milieu ,false);
     delay(500);
   }
-  else if (digitalRead(pedale_plus) == 1 && cpt == nombre_patch) {
-    cpt = 1 ;
+  else if (digitalRead(pedale_plus) == 1 && cpt == nombre_patch-1) {
+    cpt = 0 ;
     dac.setVoltage(milieu , false);
     delay(500);
   }
-  else if (digitalRead(pedale_moins) == 1 && cpt== 1) {
+  else if (digitalRead(pedale_moins) == 1 && cpt== 0) {
     dac.setVoltage(milieu, false);
     delay(500);
   }
