@@ -14,11 +14,11 @@ This project is Made in collaboration with Frederic_Wauters, Franck Morisseau A.
 Disclaimer : some or any option ( example : strings vibration, RGB parametrable laser beam and the hand height) 
 are inspired by french Laser Harp team : [there Laser Harp website](https://www.harpelaser.com) 
 designed and conceived by (Franck Morisseau, Laurent Ma , and Other Laurent) 
-But the schematics and program are not in relation with him and their team, just option are inspired by their work 
+But our electrical schematics, program, and pcb are not in relation with him and their team, just some option are inspired by their work 
 
 Thanks 
 
-Marco IDC
+LH-Arduino Team 
 
 ## Demo of Laser Harp
 ### [Demo Laser Harp](https://youtu.be/7bUMFFDsR9I)
