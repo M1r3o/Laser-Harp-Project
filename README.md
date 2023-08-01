@@ -2,7 +2,7 @@
 ![Laser Harp](https://github.com/M1r3o/Laser-Harp-Project/blob/main/Image%20Archive/IMG_20210120_164140.jpg)
 
 
-This project is Made in collaboration with Frederic_Wauters, Franck Morisseau A.K.A Genesis, he helped me to understand the principle work of the laser harp and in the arduino code 
+This project is Made in collaboration with Frederic_Wauters, Franck Morisseau A.K.A Genesis, they helped me to understand the principle work of the laser harp and in the arduino code 
 
  This repository is a gather of all of my research, test , version, of Laser Harp     
 
