@@ -64,9 +64,10 @@
 
 // Librairie pour le DAC
 #include <MCP4725.h>
+MCP4725 dac(0x60);    // DAC
+
 //Librairie Pour le protocole MIDI (Musical Instrument Digital Interface)
 // Declarations
-MCP4725 dac(SDA, SCL);    // DAC
 int laserPin = 4;         // COntrole Laser
 int boutonOpen = 6;      // Bouton ouverture
 int boutonClose = 6;     // Bouton fermeture
@@ -112,26 +113,28 @@ void noteOn(int cmd, int pitch, int velocity) {
 // * SETUP *
 // *********
 void setup() {
+  Serial.begin(115200);
+  dac.begin();
+  dac.setValue(2060);
+  //dac.setValue(maxX - minX);
   // Le Setup sert principalement a configurer et
   // a initialiser le diverses choses qui regissent le projet.
   // Si on y fait tourner autre chose, c'est pour "preparer le terrain", rien d'autre
   // Initialisation des pins
+  //Serial.println("CALIB I/O");
   pinMode(laserPin, OUTPUT);
   pinMode(boutonOpen, INPUT);
   pinMode(boutonClose, INPUT);
   pinMode(pinSensor , INPUT);
-  Serial.begin(115200);
-
-  // S'assurer que le laser est eteint
-  digitalWrite(laserPin, LOW);
-
+  //Serial.println("CALIB I/O DONE");
+  digitalWrite(3, HIGH);
   // Initialisation du DAC
-  dac.begin();
-  dac.setValue(maxX-minX);
-  delay(1000);
-  Serial.print("idle");
-}
+  delay(3000);
+  digitalWrite(3, LOW);
+  //Serial.println("INIT HARPE DONE");
+ 
 
+}
 // ********
 // * LOOP *
 // ********
