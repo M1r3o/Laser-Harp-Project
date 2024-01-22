@@ -58,32 +58,36 @@
 
 //////////////////////////////
 ////////dependance///////////
-#include <Wire.h>
-#include <Adafruit_MCP4725.h>    // DAC
-Adafruit_MCP4725 dac;
+//#include "Wire.h"
+//#include "MCP4725.h"
+#include <MCP4725.h>
 #include "settings.h"
+MCP4725 dac(0x60);    // DAC
 // *********
 // * SETUP *
 // *********
 void setup() {
+  Serial.begin(115200);
+  dac.begin();
+  dac.setValue(2060);
+  //dac.setValue(maxX - minX);
   // Le Setup sert principalement a configurer et
   // a initialiser le diverses choses qui regissent le projet.
   // Si on y fait tourner autre chose, c'est pour "preparer le terrain", rien d'autre
   // Initialisation des pins
+  //Serial.println("CALIB I/O");
   pinMode(laserPin, OUTPUT);
   pinMode(boutonOpen, INPUT);
   pinMode(boutonClose, INPUT);
   pinMode(pinSensor , INPUT);
-  pinMode(pedale_plus, INPUT);
-  pinMode(pedale_moins, INPUT);
-  Serial.begin(115200);
-  digitalWrite(laserPin, HIGH);
+  //Serial.println("CALIB I/O DONE");
+  digitalWrite(3, HIGH);
   // Initialisation du DAC
-  dac.begin(0x60);
-   dac.setVoltage(maxX - minX, false);
   delay(3000);
-  Serial.print("idle");
-  digitalWrite(laserPin, LOW);
+  digitalWrite(3, LOW);
+  //Serial.println("INIT HARPE DONE");
+ 
+
 }
 
 // ********
